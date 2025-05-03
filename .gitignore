@@ -1,0 +1,35 @@
+# Git忽略文件配置
+
+# 忽略特定文件
+2-Finetuning/1-dataset/SPO/IE_train_dataset.json
+2-Finetuning/1-dataset/SPO/IE_train_dataset_Converted.json
+1-Crawler/sina_data.csv
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+
+# 忽略Python相关文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 忽略日志文件
+*.log 
